@@ -26,6 +26,9 @@ Transfer ether between the ethereum mainnet and eos.
 
 Users will be able to lock their ether on the ethereum mainnet app. Once it is locked, they receive the same amount of ether on ethereum-on-steem. Holders of ether on eos can withdraw it back to the mainnet at any time.
 
+Writing an ethereum mainnet relay on the eos mainnet will be easy (because POW is easy to proof), the other way around will be a lot more difficult. So an important question to ask is how to get ether back on the mainnet:
+- A steemit relay by itself would still be insufficient (as we need to know whether or not a transaction is valid by the protocol)
+
 ## Steem transactions
 Tbd
 
