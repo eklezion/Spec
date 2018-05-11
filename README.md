@@ -29,6 +29,8 @@ Users will be able to lock their ether on the ethereum mainnet app. Once it is l
 Writing an ethereum mainnet relay on the eos mainnet will be easy (because POW is easy to proof), the other way around will be a lot more difficult. So an important question to ask is how to get ether back on the mainnet:
 - A steemit relay by itself would still be insufficient (as we need to know whether or not a transaction is valid by the protocol)
 
+["Light clients authenticate transactions using only the block headers and merkle proofs. EOS.IO will be the first proof-of-stake protocol with support for light client validation. More importantly, it will be the only one capable of generating proof-of-completeness. This means it will be possible to prove you have received all relevant prior messages from another chain in order without having a waiting/challenge period."](https://medium.com/eosio/eos-io-dawn-2-0-released-development-update-c19348eac3c7)
+
 ## Steem transactions
 Tbd
 
@@ -43,6 +45,8 @@ Each transaction contains
 Using blocks could be considered for data pruning. A system could also be setup where node producers periodically update a state hash that can be challanged when wrong.
 
 VerSum may also be an option.
+
+[
 
 
 ## Influences
